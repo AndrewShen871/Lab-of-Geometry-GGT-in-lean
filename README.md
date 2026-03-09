@@ -3,7 +3,7 @@
 
 This repository contains a formalization of foundational concepts in **Geometric Group Theory (GGT)** using the **Lean 4** interactive theorem prover. The project focuses on the structural properties of Cayley graphs, their connectivity, and metric properties.
 
-## 🚀 Core Features
+## Core Features
 
 ### 1. Cayley Graph Construction
 * **Quiver Implementation**: Defined the Cayley graph as a `Quiver` where vertices are group elements and edges are labeled by generators[cite: 8, 44].
@@ -22,7 +22,7 @@ This repository contains a formalization of foundational concepts in **Geometric
 
 
 
-## 📂 File Structure
+## File Structure
 
 | File | Description |
 | :--- | :--- |
@@ -31,7 +31,7 @@ This repository contains a formalization of foundational concepts in **Geometric
 | `CayleyConnectivity.lean` | [cite_start]Detailed implementation strategy for the connectivity theorem. |
 | `wordlength.lean` | [cite_start]Definitions of word length and word distance via `sInf` of path lengths. |
 
-## 🛠️ Technical Implementation Details
+## Technical Implementation Details
 
 The proof of `Isconnected` follows a 5-step strategy:
 1. **Target Reduction**: Reduce $g \to h$ connectivity to $1 \to g^{-1}h$[cite: 40].
